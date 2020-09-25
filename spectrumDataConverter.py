@@ -5,9 +5,7 @@ def spectrum(file):
 
     df = pd.read_csv(data)
 
-    df1 = df[["Wavelength","BestFit"]]
-
-    #df1.set_index("Wavelength", inplace = True)
+    df1 = df[["Wavelength", "BestFit", "Flux"]]
 
     return df1
 

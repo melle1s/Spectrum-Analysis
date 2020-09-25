@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>488aa502-1cd4-4d78-b5d1-5c5539805674</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module1.py</StartupFile>
+    <StartupFile>bestFit.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,7 @@
     <Compile Include="bestFit.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="curveFit.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="module1.py">
+    <Compile Include="redshiftAccount.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="spectrumDataConverter.py">
